@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995123955227",
+    "project_id": "yahumott",
+    "storage_bucket": "yahumott.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995123955227:android:b47870b42e4d691c171abe",
+        "android_client_info": {
+          "package_name": "com.yahumott"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995123955227-npfuqi12n7oiugvhiq47qu0e5dgnfuse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSjt5PlLUGlsMjcZ8kM8dAnBs51jfRMCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995123955227-npfuqi12n7oiugvhiq47qu0e5dgnfuse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,386 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - connectivity (0.0.1):
+    - Flutter
+    - Reachability
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Analytics (8.0.0):
+    - Firebase/Core
+  - Firebase/Auth (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.0.0)
+  - Firebase/Core (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.0.0)
+  - Firebase/CoreOnly (8.0.0):
+    - FirebaseCore (= 8.0.0)
+  - Firebase/Messaging (8.0.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.0.0)
+  - firebase_analytics (8.1.2):
+    - Firebase/Analytics (= 8.0.0)
+    - firebase_core
+    - Flutter
+  - firebase_auth (2.0.0):
+    - Firebase/Auth (= 8.0.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (1.3.0):
+    - Firebase/CoreOnly (= 8.0.0)
+    - Flutter
+  - firebase_messaging (10.0.3):
+    - Firebase/Messaging (= 8.0.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAnalytics (8.0.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.0.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.0.0):
+    - FirebaseAnalytics/Base (= 8.0.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/Base (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAuth (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.0.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.10.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.10.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/UserDefaults (~> 7.6)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.0.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+  - Flutter (1.0.0)
+  - flutter_downloader (0.0.1):
+    - Flutter
+  - flutter_facebook_login (0.0.1):
+    - FBSDKCoreKit (~> 5.5)
+    - FBSDKLoginKit (~> 5.5)
+    - Flutter
+  - flutter_inapp_purchase (0.0.1):
+    - Flutter
+  - flutter_lwa (0.0.1):
+    - Flutter
+  - flutter_paystack (0.0.1):
+    - Flutter
+  - flutter_secure_storage (3.3.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - get_ip (0.0.1):
+    - Flutter
+  - google_sign_in (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 5.0)
+  - GoogleAppMeasurement (8.0.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.6.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.6.0)"
+  - GoogleUtilities/Reachability (7.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.6.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - launch_review (0.0.1):
+    - Flutter
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - onesignal_flutter (3.0.0):
+    - Flutter
+    - OneSignalXCFramework (= 3.4.4)
+  - OneSignalXCFramework (3.4.4)
+  - path_provider (0.0.1):
+    - Flutter
+  - paytm (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (2.0.0)
+  - razorpay-pod (1.1.16)
+  - razorpay_flutter (1.1.10):
+    - Flutter
+    - razorpay-pod
+  - Reachability (3.2)
+  - share (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Toast (4.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+  - video_player (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity (from `.symlinks/plugins/connectivity/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_downloader (from `.symlinks/plugins/flutter_downloader/ios`)
+  - flutter_facebook_login (from `.symlinks/plugins/flutter_facebook_login/ios`)
+  - flutter_inapp_purchase (from `.symlinks/plugins/flutter_inapp_purchase/ios`)
+  - flutter_lwa (from `.symlinks/plugins/flutter_lwa/ios`)
+  - flutter_paystack (from `.symlinks/plugins/flutter_paystack/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - get_ip (from `.symlinks/plugins/get_ip/ios`)
+  - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - launch_review (from `.symlinks/plugins/launch_review/ios`)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - paytm (from `.symlinks/plugins/paytm/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - nanopb
+    - OneSignalXCFramework
+    - PromisesObjC
+    - razorpay-pod
+    - Reachability
+    - Toast
+
+EXTERNAL SOURCES:
+  connectivity:
+    :path: ".symlinks/plugins/connectivity/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_downloader:
+    :path: ".symlinks/plugins/flutter_downloader/ios"
+  flutter_facebook_login:
+    :path: ".symlinks/plugins/flutter_facebook_login/ios"
+  flutter_inapp_purchase:
+    :path: ".symlinks/plugins/flutter_inapp_purchase/ios"
+  flutter_lwa:
+    :path: ".symlinks/plugins/flutter_lwa/ios"
+  flutter_paystack:
+    :path: ".symlinks/plugins/flutter_paystack/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  get_ip:
+    :path: ".symlinks/plugins/get_ip/ios"
+  google_sign_in:
+    :path: ".symlinks/plugins/google_sign_in/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  launch_review:
+    :path: ".symlinks/plugins/launch_review/ios"
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  paytm:
+    :path: ".symlinks/plugins/paytm/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  razorpay_flutter:
+    :path: ".symlinks/plugins/razorpay_flutter/ios"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  Firebase: 73c3e3b216ec1ecbc54d2ffdd4670c65c749edb1
+  firebase_analytics: 5e1820ff8ca6cc984fd4d1dedd2dd45965b91535
+  firebase_auth: 1e633b05c508081a0876749432ac742075b3f4f3
+  firebase_core: cda81ae37eda6df2bc2d16027fda527987c4bd33
+  firebase_messaging: 861664166bbdd527cb40396d4a381f0a1c39f61d
+  FirebaseAnalytics: dcb92c7c9ef4fa7ffac276e8f87bd4fc8c97f1b8
+  FirebaseAuth: b8cd992fca5b53dc6eec09e873a3f375f000c5a1
+  FirebaseCore: 3f09591d51292843e2a46f18358d60bf4e996255
+  FirebaseCoreDiagnostics: 56fb7216d87e0e6ec2feddefa9d8a392fe8b2c18
+  FirebaseInstallations: 830327b45345ffc859eaa9c17bcd5ae893fd5425
+  FirebaseMessaging: 1a33b4af3c8042ed6ddacb6c031894af2064bfab
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_downloader: 058b9c41564a90500f67f3e432e3524613a7fd83
+  flutter_facebook_login: cfb5659f686b1c575ef205c6b6fd20db9679d3c4
+  flutter_inapp_purchase: 5c6a1ac3f11b11d0c8c0321c0c41c1f05805e4c8
+  flutter_lwa: f09139d09b6ca13b2e94ca0f73f1cd7309368fc7
+  flutter_paystack: 50021637b71e7712780744f69d2843e71b65175d
+  flutter_secure_storage: 7953c38a04c3fdbb00571bcd87d8e3b5ceb9daec
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  get_ip: c063133e0a399ae4089048c90d6a232cb2344846
+  google_sign_in: 6bd214b9c154f881422f5fe27b66aaa7bbd580cc
+  GoogleAppMeasurement: c6bbc9753d046b5456dd4f940057fbad2c28419e
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  image_picker: e06f7a68f000bd36f552c1847e33cda96ed31f1f
+  launch_review: 75d5a956ba8eaa493e9c9d4bf4c05e505e8d5ed0
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  onesignal_flutter: 6a582e3051074be6d9d129002a93a3bfd04a5b88
+  OneSignalXCFramework: eaf286b7438aa1f030f03e5fa9f1c79ede5d8f04
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  paytm: 776e5d03fbe319a3c5ace1ffacd4718946c440a3
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  razorpay-pod: f1763f8ee8f83152837abe7de1cdfbcd4eb035b9
+  razorpay_flutter: 84b3bfd206ae9c9c2a9ba585524a1b3d8102b6c1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  share: 0b2c3e82132f5888bccca3351c504d0003b3b410
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+  webview_flutter: 3603125dfd3bcbc9d8d418c3f80aeecf331c068b
+
+PODFILE CHECKSUM: 8ef1b04bcd000fa77447b5b73f7c99a3fd874a56
+
+COCOAPODS: 1.10.1
